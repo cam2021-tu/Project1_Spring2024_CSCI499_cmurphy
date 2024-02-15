@@ -1,0 +1,51 @@
+body {
+    background-color:red ; /* Red background */
+    color: #FFFFFF; /* White text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+h1 {
+    margin-top: 0;
+}
+
+img {
+    border-radius: 50%; /* Rounded edges for the image */
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 20;
+
+}
+
+iframe {
+    margin: 10px auto;
+    display: block;
+}
+
+a {
+    color: #FFD700; /* Gold color for the link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
